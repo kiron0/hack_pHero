@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/cdf08b4e5b.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+  <link rel="shortcut icon" href="./images/pHero.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Programming Hero</title>
+</head>
+
+<body>
+  <!-- navbar  start -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #212936;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center mt-lg-2" href=""><img src="./images/logo.png" alt=""
+          class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto d-flex align-items-center ">
+          <div class="d-md-flex justify-content-md-between align-content-md-between gap-3 align-items-center mt-lg-2">
+            <p class="mt-lg-3">Support</p>
+            <p class="mt-lg-3">My Class</p>
+            <box-icon name='bell' color='rgba(255,255,255)'></box-icon>
+            <box-icon name='cart' color='rgba(255,255,255)'></box-icon>
+            <div class="d-flex avatar">
+              <img class="gem" src="./images/gem.svg" alt="">
+              <p class="text-dark gem-count">999</p>
+            </div>
+            <img class="img-fluid my-image rounded-circle" src="./images/toufiq_hasan_kiron.jpg" alt="" />
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end start -->
+
+  <!-- main start -->
+  <section class="main">
+    <!-- course details start -->
+    <div class="milestoneDetails">
+      <img class="milestoneImage" src="./images/kv.png" alt="" />
+
+      <h1 class="title"></h1>
+      <p class="details"></p>
+    </div>
+    <!-- course details end -->
+
+    <!-- all milestones & modules start -->
+    <div>
+      <div class="milestones">
+        <div class="milestone border-b">
+          <div class="flex">
+            <div class="checkbox"><input type="checkbox" /></div>
+            <div>
+              <p>
+                Milestone 1 name
+                <span><i class="fas fa-chevron-down"></i></span>
+              </p>
+            </div>
+          </div>
+          <div class="hidden_panel">
+            <div class="module border-b">
+              <p>Module Name</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="doneList">
+        <!-- done list will load here -->
+      </div>
+    </div>
+    <!-- all milestones and modules end -->
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
